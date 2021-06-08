@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.quality-title {
+    font-family: Poppins;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #170C04;
+    margin-bottom: 11px;
+}
+
+.products {
+    margin-top: 75px;
+}
+
+.products-box {
+    padding: 40px 25px 8px;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.icon {
+    z-index: -1;
+}
+
+.section-desk {
+    font-family: Roboto;
+    line-height: 24px;
+    color: #170C04;
+    opacity: 0.6;
+    margin-bottom: 24px;
+}
+
+.btn {
+    font-family: Roboto;
+    line-height: 24px;
+    color: #E27B3A;
+}
+
+.pink:before {
+    content: "";
+    position: absolute;
+    mix-blend-mode: darken;
+    top: -15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 37px;
+    height: 37px;
+    background-image: url("../images/images 1.png");
+
+}
+
+.popular {
+    text-align: center;
+    margin-top: 136px;
+}
+
+.green:before {
+    content: "";
+    background-image: url("../images/yora_kibble_bowl_xl_2 1.jpg");
+    width: 53px;
+    height: 53px;
+    top: -25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.yellow:before {
+    content: "";
+    background-image: url("../images/0002310001301_1_A1C1_1200 1.png");
+    width: 36px;
+    height: 36px;
+    top: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.bracelet {
+    background: #FCF2EB;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 555px;
+    height: 420px;
+}
+
+.popular-title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #170C04;
+}
+
+.popular-desk {
+    font-family: Roboto;
+    line-height: 24px;
+    color: #170C04;
+    margin: 18px 0 25px;
+
+}
+
+.popular-info {
+    font-family: Poppins;
+    font-size: 25px;
+    line-height: 37px;
+    color: #170C04;
+    font-weight: 500;
+    margin: 25px 0 9px;
+}
+.cord{
+    width: 360px;
+    height: 273px;
+    background: #FCF2EB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    margin-top: 57px;
+}
+.footer{
+    text-align: center;
+    padding: 58px 0 91px;
+}
